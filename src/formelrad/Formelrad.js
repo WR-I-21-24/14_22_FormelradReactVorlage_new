@@ -40,7 +40,7 @@ export default function Formelrad() {
                     <InputField color={"black"} value={values.p} label="Leistung" handleChange={e => {setValues(values => ({...values, p: e.target.value}))}} />
                     <button type="submit">Calculate</button>
                 </form>
-            </section>
+             </section>
         </>
     )
 }
